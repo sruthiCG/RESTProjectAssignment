@@ -1,0 +1,12 @@
+2020-10-17 16:02:18 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TBL_EMPLOYEES" not found; SQL statement:
+INSERT INTO TBL_EMPLOYEES (name, age, department) VALUES ('Lokesh Mehta', '23', 'Sogeti'), ('Deja Patel', '40', 'AppsNa'), ('John William', '30', 'Europe') [42102-195]
+2020-10-17 16:03:46 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TBL_EMPLOYEES" not found; SQL statement:
+INSERT INTO TBL_EMPLOYEES (name, age, department) VALUES ('Lokesh Mehta', '23', 'Sogeti'), ('Deja Patel', '40', 'AppsNa'), ('John William', '30', 'Europe') [42102-195]
+2020-10-17 16:04:41 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "('Anna Peter'[*], '27', 'FS')"; expected "(, WITH, SELECT, FROM"; SQL statement:
+('Anna Peter', '27', 'FS') [42001-195]
+2020-10-17 22:33:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM EMPLOYEES EMPLOYEE EMPLOYEES[*]"; SQL statement:
+SELECT * FROM EMPLOYEES EMPLOYEE EMPLOYEES [42000-195]
